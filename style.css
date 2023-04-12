@@ -1,0 +1,19 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template: 200px 1fr / 300px 1fr;
+}
+
+.sidebar{
+    background-color: blue;
+    grid-row:1 / -1 ;
+}
+
+.main-content{
+    background-color: grey;
+}
