@@ -97,9 +97,15 @@ ul{
     padding: 20px;
 }
 
+.label{
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .cards{
     display: grid;
-    gap: 15px;
+    gap: 20px;
     grid-template: repeat(3,1fr) / repeat(2,1fr);
     
 }
@@ -116,4 +122,37 @@ ul{
 .card .icons{
     display: flex;
     justify-content: end;
+}
+.other{
+    margin-left: 20px;
+}
+
+.announcements,.trending>ul{
+    background-color: white;
+    padding: 20px ;
+}
+
+.announcement{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+.announcement:last-of-type{
+    border: none;
+}
+
+.title{
+    font-weight:bold
+}
+
+p{
+    color: grey;
+}
+
+.trending li{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.trending img{
+    grid-row: 1/3;
 }
