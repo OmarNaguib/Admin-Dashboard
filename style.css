@@ -78,7 +78,31 @@ ul{
 
 .first-row{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1.2fr;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.first-row img{
+    height: 1.3em;
+    width: 1.3em;
+}
+.first-row .right,.first-row .left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.first-row .right{
+    gap: 20px;
+}
+.first-row input{
+    flex: 1;
+    max-width: 700px;
+    border-style: none;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 5px;
 }
 .second-row{
     display: grid;
