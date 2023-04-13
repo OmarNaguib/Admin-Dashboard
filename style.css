@@ -90,10 +90,21 @@ ul{
     justify-self: center;
 }
 
-
-
 .main-content{
     background-color: grey;
     display: grid;
     grid-template-columns: 2fr .8fr;
+    padding: 20px;
+}
+
+.cards{
+    display: grid;
+    gap: 15px;
+    grid-template: repeat(3,1fr) / repeat(2,1fr);
+    
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
 }
