@@ -6,7 +6,7 @@ html,body{
 .container{
     height: 100%;
     display: grid;
-    grid-template: 200px 1fr / 300px 1fr;
+    grid-template: 150px 1fr / 300px 1fr;
 }
 
 .sidebar{
@@ -35,12 +35,20 @@ html,body{
     padding-bottom: 8px;
 }
 ul img{
+    width: 1.3rem;
+    height: 1.3rem;
 
 }
 ul{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+
+.header{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
 }
 
 
