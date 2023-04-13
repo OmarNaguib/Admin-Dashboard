@@ -1,6 +1,9 @@
+
+
 html,body{
     margin: 0;
     height: 100%;
+    font-family: 'Roboto',sans-serif;
 }
 
 .container{
@@ -10,7 +13,7 @@ html,body{
 }
 
 .sidebar{
-    background-color: blue;
+    background-color:#facc15;
     grid-row:1 / -1 ;
 
     display: grid;
@@ -49,12 +52,14 @@ ul{
 .header{
     display: grid;
     grid-template-rows: 1fr 2fr;
+    background-color: #fdba74;
+    
 }
 
 .header img{
     width: 15px;
     height: 15px;
-    background-color: grey;
+    background-color: #a8a29e;
 }
 
 .header-row:nth-of-type(1){
@@ -91,10 +96,11 @@ ul{
 }
 
 .main-content{
-    background-color: grey;
+    background-color:#f97316;
     display: grid;
     grid-template-columns: 2fr .8fr;
     padding: 20px;
+    box-shadow: inset 0px 3px 5px #97470d;
 }
 
 .label{
@@ -153,6 +159,8 @@ p{
     grid-auto-flow: column;
     grid-template-rows: 1fr 1fr;
     justify-content: start;
+
+    padding-bottom: 10px;
 }
 .trending img{
     grid-row: 1/3;
