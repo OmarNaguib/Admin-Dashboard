@@ -12,7 +12,38 @@ html,body{
 .sidebar{
     background-color: blue;
     grid-row:1 / -1 ;
+
+    display: grid;
+    align-content: start;
+    grid-template-rows: repeat(3,auto);
+    gap:50px;
+
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+
+
 }
+
+.sidebar-header{
+    font-size: 2rem;
+}
+.sidebar > ul{
+    font-size: 1.3rem;
+}
+.sidebar li{
+    padding-bottom: 8px;
+}
+ul img{
+
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 .main-content{
     background-color: grey;
