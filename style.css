@@ -94,4 +94,6 @@ ul{
 
 .main-content{
     background-color: grey;
+    display: grid;
+    grid-template-columns: 2fr .8fr;
 }
