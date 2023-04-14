@@ -179,7 +179,8 @@ ul{
 .cards{
     display: grid;
     gap: 20px;
-    grid-template: repeat(3,200px) / repeat(2,350px);
+    grid-template-columns: repeat(auto-fit,350px);
+    /* grid-template: repeat(3,200px) / repeat(2,350px); */
     
 }
 
@@ -204,14 +205,20 @@ ul{
     margin-left: 20px;
 }
 
-.announcements,.trending>ul{
+.announcements,.trending{
     background-color: white;
+}
+.announcements,.trending{
+    width:300px;
     padding: 20px ;
 }
+
+
 
 .announcement{
     border-bottom: 1px solid grey;
     padding: 10px;
+    
 }
 .announcement:last-of-type{
     border: none;
