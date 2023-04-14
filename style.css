@@ -6,6 +6,10 @@ html,body{
     font-family: 'Roboto',sans-serif;
     --side-color:#facc15;
 }
+p{
+    margin: 0px;
+    margin-top: 5px;
+}
 
 .container{
     height: 100%;
@@ -109,7 +113,8 @@ ul{
 }
 .second-row{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,auto);
+
     align-items: end;
     padding-bottom: 15px;
 }
@@ -180,7 +185,9 @@ ul{
 
 .card{
     background-color: white;
-    padding: 20px;
+    padding: 30px 20px 20px 30px;
+    border-left: solid 7px var(--side-color);
+    border-radius: 8px;
 }
 
 .card img{
@@ -188,8 +195,10 @@ ul{
     width: 20px;
 }
 .card .icons{
+    margin-top: 30px;
     display: flex;
     justify-content: end;
+    gap: 30px;
 }
 .other{
     margin-left: 20px;
