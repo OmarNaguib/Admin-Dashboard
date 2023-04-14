@@ -78,8 +78,9 @@ ul{
 }
 
 .header img{
-    width: 1em;
-    height: 1em;
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
 }
 
 
@@ -249,8 +250,9 @@ p{
 }
 .trending img{
     grid-row: 1/3;
-    height: 2em;
-    width: 2em;
+    height: 3em;
+    width: 3em;
+    border-radius: 3em;
 }
 .trending .user{
     font-weight: bold;
