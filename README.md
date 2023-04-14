@@ -3,7 +3,7 @@
 Building an admin Dashboard from scratch, mainly to practise CSS Grid, along with other intermediate CSS and Html concepts.
 
 
-Attributions
+Attributions:
 
 <a href="https://www.freepik.com/free-vector/cool-husky-dog-wearing-glasses-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-vector-flat-cartoon-style_18305599.htm#query=dog%20avatar&position=10&from_view=search&track=ais">Image by catalyststuff</a> on Freepik
 
