@@ -171,7 +171,7 @@ ul{
 }
 
 .label{
-    padding-bottom: 5px;
+    margin: 10px 0px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -207,10 +207,9 @@ ul{
 
 .announcements,.trending{
     background-color: white;
-}
-.announcements,.trending{
-    width:300px;
+    width:250px;
     padding: 20px ;
+    border-radius: 10px;
 }
 
 
@@ -237,6 +236,7 @@ p{
     grid-auto-flow: column;
     grid-template-rows: 1fr 1fr;
     justify-content: start;
+    column-gap: 15px;
 
     padding-bottom: 10px;
 }
@@ -246,9 +246,5 @@ p{
     width: 2em;
 }
 .trending .user{
-
-}
-
-.trending .bio{
-
+    font-weight: bold;
 }
