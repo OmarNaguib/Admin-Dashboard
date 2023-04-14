@@ -82,6 +82,7 @@ ul{
     height: 1em;
 }
 
+
 .first-row{
     display: grid;
     grid-template-columns: 2fr 1.2fr;
@@ -99,6 +100,11 @@ ul{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.first-row .right{
+    display: grid;
+    justify-content: end;
+    justify-items: end;
 }
 .first-row .right{
     gap: 20px;
@@ -156,10 +162,11 @@ ul{
 
 
 .header .right{
-    justify-self: center;
+    justify-self: end;
     align-self: end;
     display: flex;
     gap: 15px;
+    margin-right: 50px;
 }
 
 .main-content{
@@ -180,7 +187,7 @@ ul{
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit,350px);
-    /* grid-template: repeat(3,200px) / repeat(2,350px); */
+    grid-auto-rows: 196px;
     
 }
 
