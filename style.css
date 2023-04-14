@@ -33,6 +33,7 @@ html,body{
     font-size: 2rem;
     display: flex;
     align-items: start;
+    margin-left: -4px;
 }
 
 .sidebar-header img{
